@@ -1,0 +1,41 @@
+header
+{
+font-size: 25px;
+text-align: center;
+}
+.titre
+{
+  border:black 10px;
+  border-style: groove;
+}
+h2
+{
+  font-size: 22px;
+  font-style: italic;
+  margin-left: 25px;
+  color: #00263C;
+}
+
+.footer
+{
+  text-align: center;
+  border-top: black 1px solid;
+  background-color: #CCDBFE;
+}
+.Partie1
+{
+  display: inline-block;
+  width: 50%;
+
+}
+
+.image
+{
+  display: inline-block;
+
+}
+
+.video iframe
+{
+margin-left: 30%;
+}
