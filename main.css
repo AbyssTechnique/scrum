@@ -1,3 +1,8 @@
+html
+{
+  font-family: Verdanna, sans-serif;
+}
+
 header
 {
 font-size: 25px;
@@ -5,8 +10,8 @@ text-align: center;
 }
 .titre
 {
-  border:black 10px;
-  border-style: groove;
+  background-color: #CCDBFE;
+  box-shadow: 5px 5px 15px 5px;
 }
 h2
 {
@@ -21,21 +26,65 @@ h2
   text-align: center;
   border-top: black 1px solid;
   background-color: #CCDBFE;
+  }
+.partie1
+{
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
 }
-.Partie1
+
+.partie2
 {
   display: inline-block;
-  width: 50%;
-
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 20px;
 }
 
 .image
 {
-  display: inline-block;
+  text-align: center;
+}
+
+.image img {
+  display: inline;
+}
+
+.video
+{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  margin: 20px 0px 20px 0px;
+}
+.video iframe
+{
+margin-left: 120px;
+}
+
+.container
+{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body
+{
+  background-color: #538AA9;
 
 }
 
-.video iframe
+.footer ul
 {
-margin-left: 30%;
+  list-style-type: none;
+}
+a:hover
+{
+  color: red;
 }
